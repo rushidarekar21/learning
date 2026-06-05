@@ -1,0 +1,15 @@
+git branch -l 
+git branch branch-1
+git checkout -b branch-2
+git branch -d branch-2
+
+git restore README.md
+git restore .
+git restore --staged README.md
+
+git log -5
+git reset --soft f30e794c24f954a97d4a5cb99331e1d3db890d89
+git reset --hard f30e794c24f954a97d4a5cb99331e1d3db890d89
+
+git push origin HEAD
+git commit --amend
