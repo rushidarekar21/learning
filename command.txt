@@ -13,3 +13,4 @@ git reset --hard f30e794c24f954a97d4a5cb99331e1d3db890d89
 
 git push origin HEAD
 git commit --amend
+git branch --set-upstream-to=origin/master
